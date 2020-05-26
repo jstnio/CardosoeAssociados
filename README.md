@@ -1,2 +1,2 @@
-# Aguardem...
-Novo site da Cardoso e Associados será publicado em breve.
+# Cardoso e Associados
+Novo site será publicado em breve.
