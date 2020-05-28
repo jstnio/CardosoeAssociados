@@ -6,19 +6,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
 		body {
-    			margin: 0;
-		}
-		.backg{
-			margin-left: 50%;
-			margin-top: 50%;
-			transform: translate(-50%, -50%);
-			min-height: 100%;
-			min-width: 100%;
-			border:none;
-		}
+    margin: 0;            /* Reset default margin */
+}
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
+}
 	</style>
 </head>
 <body>
-	<iframe src="https://bit.ly/36CirTv" class="backg" />
+	<iframe src="https://bit.ly/36CirTv" />
 </body>
 </html>
