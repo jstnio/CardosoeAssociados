@@ -632,7 +632,7 @@
                             <!-- Form -->
                             <div class="footer-form">
                                 <div id="mc_embed_signup">
-                                    <form target="_blank" action="https://script.google.com/macros/s/AKfycbyHvdPljY_4H_BeCJcNIpprLcAvDy71ML7CiGkGJg/exec" method="POST" class="subscribe_form relative mail_part" novalidate="true">
+                                    <form id="gform" target="_blank" action="https://script.google.com/macros/s/AKfycbyHvdPljY_4H_BeCJcNIpprLcAvDy71ML7CiGkGJg/exec" method="POST" class="subscribe_form relative mail_part" novalidate="true">
                                         <input type="email" name="Email" id="email" placeholder=" Email Profissional " class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Profissional'">
                                         <div class="form-icon">
                                             <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm">
@@ -712,6 +712,10 @@
     <!-- Jquery Plugins, main Jquery -->	
     <script src="./js/plugins.js"></script>
     <script src="./js/main.js"></script>
+
+    <!--script para enviar a mensagem pelo Google Sheets-->
+    <script data-cfasync="false" type="text/javascript"
+            src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
         
     </body>
 </html>
